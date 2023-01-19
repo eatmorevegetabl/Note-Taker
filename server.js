@@ -1,6 +1,6 @@
 const express = require('express');
-const api = require('../Note-Taker/routes/index');
-const html = require('../Note-Taker/routes/index');
+const api = require('./routes/index');
+const html = require('./routes/index');
 
 const PORT = process.env.PORT || 3001;
 
