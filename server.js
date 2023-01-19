@@ -1,6 +1,4 @@
 const express = require('express');
-const path = require('path');
-const htmlRoutes = require('../Note-Taker/routes/htmlRoutes.js');
 const api = require('../Note-Taker/routes/index');
 const html = require('../Note-Taker/routes/index');
 
