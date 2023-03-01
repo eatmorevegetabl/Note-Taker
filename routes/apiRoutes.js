@@ -5,9 +5,9 @@ const { notes } = require('../db/db.json');
 const { v4: uuidv4 } = require('uuid');
 
 router.get('/notes', (req, res) => {
-  fs.readFile(notes).then((data) => res.json(JSON.parse(data)));
-  // let results = notes;
-  // res.json(results);
+  let results = notes;
+  res.json(results);
+  //fs.readFile(notes).then((data) => res.json(JSON.parse(data)));
 });
 
 router.post('/notes', (req, res) => {
